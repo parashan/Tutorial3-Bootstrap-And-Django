@@ -127,6 +127,7 @@ def register(request):
                 password = form.cleaned_data['password']
                 email = form.cleaned_data['email']
                 save_user = User.objects.create_user(user, email=email, password=password)
+                
                 save_user.save()
                 
                 return HttpResponseRedirect('signin')
