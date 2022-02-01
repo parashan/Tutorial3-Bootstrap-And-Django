@@ -1,0 +1,20 @@
+form {
+    color: green;
+}
+div.register .error{
+    color:red;
+}
+
+/* 
+div.register  */
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+html{
+    height: 100vh;
+}
